@@ -1,0 +1,65 @@
+body{
+    background-color: #eee;
+} 
+
+/* header */
+.main-header{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.main-header h1{
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+/*Lâmpada*/
+
+.lampada{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    margin-top: 30px;
+    margin-bottom: 30px;    
+}
+
+/*botões*/
+.btn{
+    display: flex;   
+    justify-content: center; 
+    margin-top: 30px;
+    margin-bottom: 30px;   
+}
+
+.btn button{
+    width: 100px;
+    height: 50px;
+    font-size: 20px;   
+    font-family: 'Nunito Sans', sans-serif;    
+    border-radius: 8%;
+    color: white; 
+    transition-duration: 0.5s;   
+    cursor: pointer;   
+}
+
+#on{
+    background-color: #023e8a;
+    margin-right: 10px;
+}
+
+#on:hover{
+    background-color: #03045e;
+    
+}
+
+#off{
+    background-color: #ca6702;
+    margin-left: 10px;
+}
+
+#off:hover{
+    background-color: #bb3e03;
+}
+
+
